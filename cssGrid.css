@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    
+}
+#grid-container{
+    font-size: 40px;
+    display: grid;
+    background-color: cadetblue;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    height: 100vh;
+
+    
+    
+  
+}
+
+.item-1{
+    background-color: crimson;
+    grid-row: 1/4;
+    display: flex;
+    justify-content: center;        
+    align-items: center;
+}
+.item-2{
+    background-color: darkorange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-3{
+    background-color: gold;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}  
+.item-4{
+    background-color: forestgreen;
+    grid-row: 2/4;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}        
+.item-5{
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}   
+.item-6{
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}       
+.item-7{
+    background-color: deeppink;
+    grid-column: 1/4;
+    height: 150px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}   
+.item-8{
+    background-color: darkgray;
+   grid-column: 1/4;
+   height: 150px;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+}   
+#grid-mother-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 100vh;
+  gap: 20px;
+}
+
+.items-1
+{
+    background-color: crimson;
+    grid-column: 1/5;
+    height: 10rem   ;
+}
+.items-2
+{
+    background-color: darkorange;
+    height: 10rem
+}
+
+.items-3
+{
+
+        background-color: greenyellow;
+}   
+.items-4
+{
+    background-color: forestgreen;
+}
+.items-5
+{
+    background-color: royalblue;
+    height: 10rem;    
+}   
+
+.items-6
+{
+    background-color: rebeccapurple;    
+}   
+.items-7
+{
+    background-color: deeppink; 
+    grid-column: 2/5;
+    height: 10rem;
+}   
+.items-8
+{
+    background-color: darkgray;
+    grid-column: 1/5;
+    height: 10rem
+}
